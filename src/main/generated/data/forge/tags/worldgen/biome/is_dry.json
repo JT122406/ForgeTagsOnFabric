@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:is_dry/overworld",
+      "required": false
+    },
+    {
+      "id": "#forge:is_dry/nether",
+      "required": false
+    },
+    {
+      "id": "#forge:is_dry/end",
+      "required": false
+    },
+    {
+      "id": "#c:climate_dry",
+      "required": false
+    }
+  ]
+}

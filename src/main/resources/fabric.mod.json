@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "modid",
+	"version": "${version}",
+	"name": "Forge Tags on Fabric",
+	"description": "A mod that adds Forge tags to Fabric.",
+	"authors": [
+		"Joseph T. McQuigg"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/modid/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["io.github.jt122406.ForgeTags"],
+		"fabric-datagen": ["io.github.jt122406.datagen.Datagen"]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
