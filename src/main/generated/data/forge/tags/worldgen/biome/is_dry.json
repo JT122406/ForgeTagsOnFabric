@@ -12,6 +12,9 @@
     {
       "id": "#forge:is_dry/end",
       "required": false
-    }
+    },
+    "#forge:is_dry/overworld",
+    "#forge:is_dry/nether",
+    "#forge:is_dry/end"
   ]
 }

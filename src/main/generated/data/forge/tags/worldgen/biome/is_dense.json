@@ -12,6 +12,15 @@
     {
       "id": "#forge:is_dense/end",
       "required": false
+    },
+    "#forge:is_dense/overworld",
+    {
+      "id": "#forge:is_dense/nether",
+      "required": false
+    },
+    {
+      "id": "#forge:is_dense/end",
+      "required": false
     }
   ]
 }

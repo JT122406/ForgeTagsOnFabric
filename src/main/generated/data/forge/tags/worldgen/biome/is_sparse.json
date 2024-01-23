@@ -12,6 +12,15 @@
     {
       "id": "#forge:is_sparse/end",
       "required": false
+    },
+    "#forge:is_sparse/overworld",
+    {
+      "id": "#forge:is_sparse/nether",
+      "required": false
+    },
+    {
+      "id": "#forge:is_sparse/end",
+      "required": false
     }
   ]
 }
