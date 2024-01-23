@@ -1,6 +1,6 @@
 package io.github.jt122406.datagen.tags;
 
-import io.github.jt122406.tags.Tags;
+import net.minecraftforge.common.Tags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.fabricmc.fabric.api.tag.convention.v1.ConventionalBlockTags;
@@ -9,7 +9,7 @@ import net.minecraft.world.level.block.Blocks;
 
 import java.util.concurrent.CompletableFuture;
 
-import static io.github.jt122406.tags.Tags.Blocks.*;
+import static net.minecraftforge.common.Tags.Blocks.*;
 
 public class BlockTags extends FabricTagProvider.BlockTagProvider {
 

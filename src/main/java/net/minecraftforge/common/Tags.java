@@ -1,4 +1,4 @@
-package io.github.jt122406.tags;
+package net.minecraftforge.common;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;

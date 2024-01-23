@@ -1,6 +1,6 @@
 package io.github.jt122406;
 
-import io.github.jt122406.tags.Tags;
+import net.minecraftforge.common.Tags;
 import net.fabricmc.api.ModInitializer;
 
 /**
