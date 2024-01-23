@@ -15,6 +15,9 @@ public class ItemTags extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
+        getOrCreateTagBuilder(ConventionalItemTags.SHEARS)
+                .addOptionalTag(Tags.Items.SHEARS);
+
         getOrCreateTagBuilder(ConventionalItemTags.SPEARS)
                 .addOptionalTag(Tags.Items.TOOLS_TRIDENTS);
 
