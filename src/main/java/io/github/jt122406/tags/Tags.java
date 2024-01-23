@@ -9,6 +9,10 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.Fluid;
 
+/**
+ * Clone of net.minecraftforge.common.Tags
+ * @author Joseph T. McQuigg
+ */
 @SuppressWarnings("unused")
 public class Tags {
     public static void init() {

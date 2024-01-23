@@ -75,5 +75,8 @@ public class ItemTags extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ConventionalItemTags.REDSTONE_DUSTS)
                 .addOptionalTag(Tags.Items.DUSTS_REDSTONE);
+
+        getOrCreateTagBuilder(ConventionalItemTags.GLASS_PANES)
+                .addOptionalTag(Tags.Items.GLASS_PANES);
     }
 }

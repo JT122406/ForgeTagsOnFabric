@@ -3,7 +3,7 @@
 	"id": "modid",
 	"version": "${version}",
 	"name": "Forge Tags on Fabric",
-	"description": "A mod that adds Forge tags to Fabric.",
+	"description": "A mod that adds Forge tags to Fabric and Maps Forge tags to Fabric tags.",
 	"authors": [
 		"Joseph T. McQuigg"
 	],
