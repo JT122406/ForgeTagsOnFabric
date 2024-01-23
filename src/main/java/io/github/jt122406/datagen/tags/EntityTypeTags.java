@@ -15,7 +15,7 @@ public class EntityTypeTags extends FabricTagProvider.EntityTypeTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
-        getOrCreateTagBuilder(Tags.EntityTypes.BOSSES)
-                .forceAddTag(ConventionalEntityTypeTags.BOSSES);
+        getOrCreateTagBuilder(ConventionalEntityTypeTags.BOSSES)
+                .addOptionalTag(Tags.EntityTypes.BOSSES);
     }
 }

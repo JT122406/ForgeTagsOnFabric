@@ -12,10 +12,6 @@
     {
       "id": "#forge:is_wet/end",
       "required": false
-    },
-    {
-      "id": "#c:climate_wet",
-      "required": false
     }
   ]
 }

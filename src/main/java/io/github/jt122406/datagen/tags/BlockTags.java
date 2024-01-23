@@ -17,19 +17,19 @@ public class BlockTags extends FabricTagProvider.BlockTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
-        getOrCreateTagBuilder(Tags.Blocks.BARRELS_WOODEN)
-                .forceAddTag(ConventionalBlockTags.WOODEN_BARRELS);
+        getOrCreateTagBuilder(ConventionalBlockTags.WOODEN_BARRELS)
+                .addOptionalTag(Tags.Blocks.BARRELS_WOODEN);
 
-        getOrCreateTagBuilder(Tags.Blocks.ORES)
-                .forceAddTag(ConventionalBlockTags.ORES);
+        getOrCreateTagBuilder(ConventionalBlockTags.ORES)
+                .addOptionalTag(Tags.Blocks.ORES);
 
-        getOrCreateTagBuilder(Tags.Blocks.BOOKSHELVES)
-                .forceAddTag(ConventionalBlockTags.BOOKSHELVES);
+        getOrCreateTagBuilder(ConventionalBlockTags.BOOKSHELVES)
+                .addOptionalTag(Tags.Blocks.BOOKSHELVES);
 
-        getOrCreateTagBuilder(Tags.Blocks.CHESTS)
-                .forceAddTag(ConventionalBlockTags.CHESTS);
+        getOrCreateTagBuilder(ConventionalBlockTags.CHESTS)
+                .addOptionalTag(Tags.Blocks.CHESTS);
 
-        getOrCreateTagBuilder(Tags.Blocks.ORES_QUARTZ)
-                .forceAddTag(ConventionalBlockTags.QUARTZ_ORES);
+        getOrCreateTagBuilder(ConventionalBlockTags.QUARTZ_ORES)
+                .addOptionalTag(Tags.Blocks.ORES_QUARTZ);
     }
 }

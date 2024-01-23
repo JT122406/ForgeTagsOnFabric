@@ -12,10 +12,6 @@
     {
       "id": "#forge:is_sparse/end",
       "required": false
-    },
-    {
-      "id": "#c:vegetation_sparse",
-      "required": false
     }
   ]
 }

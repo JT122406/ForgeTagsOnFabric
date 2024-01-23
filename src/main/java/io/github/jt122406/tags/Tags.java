@@ -207,8 +207,9 @@ public class Tags {
         public static final TagKey<Item> DUSTS_REDSTONE = tag("dusts/redstone");
         public static final TagKey<Item> DUSTS_GLOWSTONE = tag("dusts/glowstone");
 
-        /*
+
         public static final TagKey<Item> DYES = tag("dyes");
+        /*
         public static final TagKey<Item> DYES_BLACK = DyeColor.BLACK.getTag();
         public static final TagKey<Item> DYES_RED = DyeColor.RED.getTag();
         public static final TagKey<Item> DYES_GREEN = DyeColor.GREEN.getTag();

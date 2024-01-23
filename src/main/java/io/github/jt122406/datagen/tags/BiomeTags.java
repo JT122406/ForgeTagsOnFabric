@@ -21,76 +21,88 @@ public class BiomeTags extends FabricTagProvider<Biome>  {
         getOrCreateTagBuilder(Tags.Biomes.IS_HOT)
                 .addOptionalTag(Tags.Biomes.IS_HOT_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_HOT_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_HOT_END)
-                .addOptionalTag(ConventionalBiomeTags.CLIMATE_HOT);
+                .addOptionalTag(Tags.Biomes.IS_HOT_END);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.CLIMATE_HOT)
+                .addOptionalTag(Tags.Biomes.IS_HOT);
 
         getOrCreateTagBuilder(Tags.Biomes.IS_COLD)
                 .addOptionalTag(Tags.Biomes.IS_COLD_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_COLD_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_COLD_END)
-                .addOptionalTag(ConventionalBiomeTags.CLIMATE_COLD);
+                .addOptionalTag(Tags.Biomes.IS_COLD_END);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.CLIMATE_COLD)
+                .addOptionalTag(Tags.Biomes.IS_COLD);
 
         getOrCreateTagBuilder(Tags.Biomes.IS_SPARSE)
                 .addOptionalTag(Tags.Biomes.IS_SPARSE_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_SPARSE_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_SPARSE_END)
-                .addOptionalTag(ConventionalBiomeTags.VEGETATION_SPARSE);
+                .addOptionalTag(Tags.Biomes.IS_SPARSE_END);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.VEGETATION_SPARSE)
+                .addOptionalTag(Tags.Biomes.IS_SPARSE);
 
         getOrCreateTagBuilder(Tags.Biomes.IS_DENSE)
                 .addOptionalTag(Tags.Biomes.IS_DENSE_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_DENSE_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_DENSE_END)
-                .addOptionalTag(ConventionalBiomeTags.VEGETATION_DENSE);
+                .addOptionalTag(Tags.Biomes.IS_DENSE_END);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.VEGETATION_DENSE)
+                .addOptionalTag(Tags.Biomes.IS_DENSE);
 
         getOrCreateTagBuilder(Tags.Biomes.IS_DRY)
                 .addOptionalTag(Tags.Biomes.IS_DRY_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_DRY_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_DRY_END)
-                .addOptionalTag(ConventionalBiomeTags.CLIMATE_DRY);
+                .addOptionalTag(Tags.Biomes.IS_DRY_END);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.CLIMATE_DRY)
+                .addOptionalTag(Tags.Biomes.IS_DRY);
 
         getOrCreateTagBuilder(Tags.Biomes.IS_WET)
                 .addOptionalTag(Tags.Biomes.IS_WET_OVERWORLD)
                 .addOptionalTag(Tags.Biomes.IS_WET_NETHER)
-                .addOptionalTag(Tags.Biomes.IS_WET_END)
-                .addOptionalTag(ConventionalBiomeTags.CLIMATE_WET);
+                .addOptionalTag(Tags.Biomes.IS_WET_END);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_CONIFEROUS)
-                .addOptionalTag(ConventionalBiomeTags.TREE_CONIFEROUS);
+        getOrCreateTagBuilder(ConventionalBiomeTags.CLIMATE_WET)
+                .addOptionalTag(Tags.Biomes.IS_WET);
+
+        getOrCreateTagBuilder(ConventionalBiomeTags.TREE_CONIFEROUS)
+                .addOptionalTag(Tags.Biomes.IS_CONIFEROUS);
         
-        getOrCreateTagBuilder(Tags.Biomes.IS_DEAD)
-                .addOptionalTag(ConventionalBiomeTags.DEAD);
+        getOrCreateTagBuilder(ConventionalBiomeTags.DEAD)
+                .addOptionalTag(Tags.Biomes.IS_DEAD);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_DESERT)
-                .addOptionalTag(ConventionalBiomeTags.DESERT);
+        getOrCreateTagBuilder(ConventionalBiomeTags.DESERT)
+                .addOptionalTag(Tags.Biomes.IS_DESERT);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_PLAINS)
-                .addOptionalTag(ConventionalBiomeTags.PLAINS);
+        getOrCreateTagBuilder(ConventionalBiomeTags.PLAINS)
+                .addOptionalTag(Tags.Biomes.IS_PLAINS);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_SWAMP)
-                .addOptionalTag(ConventionalBiomeTags.SWAMP);
+        getOrCreateTagBuilder(ConventionalBiomeTags.SWAMP)
+                .addOptionalTag(Tags.Biomes.IS_SWAMP);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_SNOWY)
-                .addOptionalTag(ConventionalBiomeTags.SNOWY);
+        getOrCreateTagBuilder(ConventionalBiomeTags.SNOWY)
+                .addOptionalTag(Tags.Biomes.IS_SNOWY);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_WASTELAND)
-                .addOptionalTag(ConventionalBiomeTags.WASTELAND);
+        getOrCreateTagBuilder(ConventionalBiomeTags.WASTELAND)
+                .addOptionalTag(Tags.Biomes.IS_WASTELAND);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_VOID)
-                .addOptionalTag(ConventionalBiomeTags.VOID);
+        getOrCreateTagBuilder(ConventionalBiomeTags.VOID)
+                .addOptionalTag(Tags.Biomes.IS_VOID);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_UNDERGROUND)
-                .addOptionalTag(ConventionalBiomeTags.UNDERGROUND);
+        getOrCreateTagBuilder(ConventionalBiomeTags.UNDERGROUND)
+                .addOptionalTag(Tags.Biomes.IS_UNDERGROUND);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_CAVE)
-                .addOptionalTag(ConventionalBiomeTags.CAVES);
+        getOrCreateTagBuilder(ConventionalBiomeTags.CAVES)
+                .addOptionalTag(Tags.Biomes.IS_CAVE);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_PEAK)
-                .addOptionalTag(ConventionalBiomeTags.MOUNTAIN_PEAK);
+        getOrCreateTagBuilder(ConventionalBiomeTags.MOUNTAIN_PEAK)
+                .addOptionalTag(Tags.Biomes.IS_PEAK);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_SLOPE)
-                .addOptionalTag(ConventionalBiomeTags.MOUNTAIN_SLOPE);
+        getOrCreateTagBuilder(ConventionalBiomeTags.MOUNTAIN_SLOPE)
+                .addOptionalTag(Tags.Biomes.IS_SLOPE);
 
-        getOrCreateTagBuilder(Tags.Biomes.IS_MOUNTAIN)
-                .addOptionalTag(ConventionalBiomeTags.MOUNTAIN);
+        getOrCreateTagBuilder(ConventionalBiomeTags.MOUNTAIN)
+                .addOptionalTag(Tags.Biomes.IS_MOUNTAIN);
     }
 }

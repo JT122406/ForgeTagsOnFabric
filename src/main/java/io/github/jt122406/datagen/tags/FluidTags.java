@@ -15,7 +15,7 @@ public class FluidTags extends FabricTagProvider.FluidTagProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider arg) {
-        getOrCreateTagBuilder(Tags.Fluids.MILK)
-                .forceAddTag(ConventionalFluidTags.MILK);
+        getOrCreateTagBuilder(ConventionalFluidTags.MILK)
+                .addOptionalTag(Tags.Fluids.MILK);
     }
 }
