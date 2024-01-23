@@ -2,15 +2,15 @@
   "replace": false,
   "values": [
     {
-      "id": "#forge:chests",
+      "id": "#forge:glass",
       "required": false
     },
     {
-      "id": "#forge:chests/ender",
+      "id": "#forge:stained_glass",
       "required": false
     },
     {
-      "id": "#forge:chests/trapped",
+      "id": "#forge:glass/tinted",
       "required": false
     }
   ]

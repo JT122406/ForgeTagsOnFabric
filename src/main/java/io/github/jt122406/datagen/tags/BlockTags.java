@@ -30,11 +30,20 @@ public class BlockTags extends FabricTagProvider.BlockTagProvider {
                 .addOptionalTag(Tags.Blocks.BOOKSHELVES);
 
         getOrCreateTagBuilder(ConventionalBlockTags.CHESTS)
-                .addOptionalTag(Tags.Blocks.CHESTS);
+                .addOptionalTag(Tags.Blocks.CHESTS)
+                .addOptionalTag(Tags.Blocks.CHESTS_ENDER)
+                .addOptionalTag(Tags.Blocks.CHESTS_TRAPPED);
 
         getOrCreateTagBuilder(ConventionalBlockTags.QUARTZ_ORES)
                 .addOptionalTag(Tags.Blocks.ORES_QUARTZ);
 
+        getOrCreateTagBuilder(ConventionalBlockTags.GLASS_PANES)
+                .addOptionalTag(Tags.Blocks.GLASS_PANES);
+
+        getOrCreateTagBuilder(ConventionalBlockTags.GLASS_BLOCKS)
+                .addOptionalTag(Tags.Blocks.GLASS)
+                .addOptionalTag(Tags.Blocks.STAINED_GLASS)
+                .addOptionalTag(Tags.Blocks.GLASS_TINTED);
 
         getOrCreateTagBuilder(BARRELS).addTag(BARRELS_WOODEN);
         getOrCreateTagBuilder(BARRELS_WOODEN).add(Blocks.BARREL);
