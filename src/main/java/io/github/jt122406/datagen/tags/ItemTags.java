@@ -53,11 +53,20 @@ public class ItemTags extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(ConventionalItemTags.IRON_INGOTS)
                 .addOptionalTag(Tags.Items.INGOTS_IRON);
 
+        getOrCreateTagBuilder(ConventionalItemTags.RAW_IRON_ORES)
+                .addOptionalTag(Tags.Items.RAW_MATERIALS_IRON);
+
         getOrCreateTagBuilder(ConventionalItemTags.GOLD_INGOTS)
                 .addOptionalTag(Tags.Items.INGOTS_GOLD);
 
+        getOrCreateTagBuilder(ConventionalItemTags.RAW_GOLD_ORES)
+                .addOptionalTag(Tags.Items.RAW_MATERIALS_GOLD);
+
         getOrCreateTagBuilder(ConventionalItemTags.COPPER_INGOTS)
                 .addOptionalTag(Tags.Items.INGOTS_COPPER);
+
+        getOrCreateTagBuilder(ConventionalItemTags.RAW_COPPER_ORES)
+                .addOptionalTag(Tags.Items.RAW_MATERIALS_COPPER);
 
         getOrCreateTagBuilder(ConventionalItemTags.NETHERITE_INGOTS)
                 .addOptionalTag(Tags.Items.INGOTS_NETHERITE);
