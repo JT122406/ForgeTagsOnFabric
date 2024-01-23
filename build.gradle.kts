@@ -37,4 +37,6 @@ tasks {
 			expand("version" to version)
 		}
 	}
+
+	jar.get().exclude("io/github/jt122406/datagen/**")
 }
